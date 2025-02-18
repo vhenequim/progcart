@@ -9,6 +9,8 @@ data = {
 
 df = pl.DataFrame(data)
 
-print(df)
+
+
+print(df.melt())
 
 
